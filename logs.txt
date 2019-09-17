@@ -1,0 +1,34 @@
+Initializing database
+2019-09-12T12:45:17.737531Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2019-09-12T12:45:17.737626Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.17) initializing of server in progress as process 28
+2019-09-12T12:45:19.441324Z 5 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2019-09-12T12:45:21.361028Z 0 [System] [MY-013170] [Server] /usr/sbin/mysqld (mysqld 8.0.17) initializing of server has completed
+Database initialized
+MySQL init process in progress...
+2019-09-12T12:45:22.437242Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2019-09-12T12:45:22.437349Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.17) starting as process 80
+2019-09-12T12:45:22.852560Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2019-09-12T12:45:22.854135Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2019-09-12T12:45:22.887279Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.17'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+2019-09-12T12:45:22.998163Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock'
+Warning: Unable to load '/usr/share/zoneinfo/iso3166.tab' as time zone. Skipping it.
+Warning: Unable to load '/usr/share/zoneinfo/leap-seconds.list' as time zone. Skipping it.
+Warning: Unable to load '/usr/share/zoneinfo/zone.tab' as time zone. Skipping it.
+Warning: Unable to load '/usr/share/zoneinfo/zone1970.tab' as time zone. Skipping it.
+mysql: [Warning] Using a password on the command line interface can be insecure.
+
+/usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/create.sql
+mysql: [Warning] Using a password on the command line interface can be insecure.
+
+
+2019-09-12T12:45:29.066212Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.17)  MySQL Community Server - GPL.
+
+MySQL init process done. Ready for start up.
+
+2019-09-12T12:45:29.430414Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2019-09-12T12:45:29.430520Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.17) starting as process 1
+2019-09-12T12:45:29.858860Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2019-09-12T12:45:29.861323Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2019-09-12T12:45:29.886048Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.17'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2019-09-12T12:45:30.031926Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+mbind: Operation not permitted
